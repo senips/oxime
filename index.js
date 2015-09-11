@@ -1,3 +1,2 @@
-exports.driver = function(){
- console.log('place holder, packaging test code');
-}
+//SeleniumWrap
+module.exports = require('./lib');

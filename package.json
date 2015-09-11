@@ -1,7 +1,7 @@
 {
   "name": "seleniumwrap",
   "version": "1.0.0",
-  "description": "Test Driver Wrapper Framework for Selenium",
+  "description": "Web Driver Wrapper Framework for Selenium",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -25,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/senips/seleniumwrap/issues"
   },
-  "homepage": "https://github.com/senips/seleniumwrap#readme"
+  "homepage": "https://github.com/senips/seleniumwrap#readme",
+  "dependencies": {
+    "selenium-webdriver": "^2.46.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
 }
