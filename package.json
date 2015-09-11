@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senips/seleniumwrap.git"
+    "url": "git+https://github.com/senips/selenium-wrap.git"
   },
   "keywords": [
     "selenium",
@@ -23,9 +23,9 @@
   "author": "Senthil Maruthaiappan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/senips/seleniumwrap/issues"
+    "url": "https://github.com/senips/selenium-wrap/issues"
   },
-  "homepage": "https://github.com/senips/seleniumwrap#readme",
+  "homepage": "https://github.com/senips/selenium-wrap#readme",
   "dependencies": {
 
   },
