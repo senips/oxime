@@ -1,0 +1,29 @@
+{
+  "name": "seleniumwrap",
+  "version": "1.0.0",
+  "description": "Test Driver Wrapper Framework for Selenium",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senips/seleniumwrap.git"
+  },
+  "keywords": [
+    "selenium",
+    "automation",
+    "jasmine",
+    "mocha",
+    "e2e"
+  ],
+  "author": "Senthil Maruthaiappan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senips/seleniumwrap/issues"
+  },
+  "homepage": "https://github.com/senips/seleniumwrap#readme"
+}
