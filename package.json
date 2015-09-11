@@ -1,6 +1,6 @@
 {
   "name": "seleniumwrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web Driver Wrapper Framework for Selenium",
   "main": "index.js",
   "directories": {
@@ -27,10 +27,14 @@
   },
   "homepage": "https://github.com/senips/seleniumwrap#readme",
   "dependencies": {
-    "selenium-webdriver": "^2.46.1"
+
   },
   "devDependencies": {
+    "selenium-webdriver": "^2.46.1",
+    "bump-cli": "^1.1.3",
     "chai": "^3.2.0",
-    "mocha": "^2.3.2"
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.2",
+    "phantomjs": "^1.9.18"
   }
 }
