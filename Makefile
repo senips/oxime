@@ -13,7 +13,7 @@ node_modules: package.json
 # Tests
 #
 
-test: test-node test-phantom
+test: test-node 
 
 test-node: node_modules
 	@printf "==> [Test :: Node.js]\n"
