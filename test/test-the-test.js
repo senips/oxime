@@ -1,4 +1,4 @@
-var x = require('./cmn'),
+var 
     expect = require('chai').expect;
 
 var company = 'xxx';

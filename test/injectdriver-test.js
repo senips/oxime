@@ -18,7 +18,7 @@ describe('Create driver wrapper', function() {
     });
 
     it('singleton driver injection', function () {
-      assert.isTrue(global.driverInited);    
+      assert.isTrue(global.driverInited);
       assert.isNotNull(global.InternalDriver);
     });
 
