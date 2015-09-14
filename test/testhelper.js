@@ -5,6 +5,6 @@ var webdriver = require('selenium-webdriver');
 if (!global.driverInited){
   global.driverInited = true;
   global.InternalDriver = new webdriver.Builder().
-     withCapabilities(webdriver.Capabilities.firefox()).
+     withCapabilities(webdriver.Capabilities.chrome()).
      build();
 }
