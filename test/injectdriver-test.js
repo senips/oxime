@@ -1,8 +1,8 @@
 var expect = require('chai').expect;
 var assert = require('chai').assert;
-var testHelper = require('./testhelper');
+var testHelper = require('../lib/buildwrapper');
+var wrapper = require('../lib/driverwrapper');
 
-var wrapper = require('../lib/driverwrapper')
 describe('Create driver wrapper', function() {
 
     it('see test works by importing', function () {
@@ -18,8 +18,7 @@ describe('Create driver wrapper', function() {
     });
 
     it('singleton driver injection', function () {
-      assert.isTrue(global.driverInited);
-      assert.isNotNull(global.InternalDriver);
+      assert.isDefined(global.gBrowserClient);
     });
 
 });

@@ -1,13 +1,14 @@
 var expect = require('chai').expect;
 var assert = require('chai').assert;
+var e2e = require('../lib/promiseaware');
+var wrapper = require('../lib/buildwrapper')
 
-var wrapper = require('../lib/driverwrapper')
-describe('launch a browser and open some urls', function() {
 
-    it('open google url and read the title', function () {
+e2e.describe('launch a browser and open some urls', function() {
 
-      var dw = new wrapper.DriverWrapper(global.InternalDriver);
-      dw.openUrl('http://google.com');
+    e2e.it('open google url and read the title', function () {
+
+      gBrowserClient.openUrl('http://google.com');
 
     });
 

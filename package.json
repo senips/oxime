@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/senips/selenium-wrap#readme",
   "dependencies": {
-
+    "q": "^1.4.1"
   },
   "devDependencies": {
     "selenium-webdriver": "^2.46.1",
