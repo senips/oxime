@@ -1,6 +1,9 @@
-# SeleniumWrap
+# Oxime
 
-SeleniumWrap is a simple web driver wrapper framework which allows you to write your test code that are neutral to your underlying web driver.  A way to go if you need to hook up to a different vendor api later point for some reasons.   So write your test independent of Selenium calls and keep your test code clean and get great control over it in managing its life cycle.
+Oxime is a simple adapter framework that works with various popular web testing frameworks such as WebDriverJS, Cypress and Puppeteer.  
+
+Why is this needed?
+The simple reason is to avoid direct use of any vendor framework implementaion in your test code so that it gives you flexibility of choice and version upgrades easily.  Moreoever, we beleive that your testing code should be independent of vendor implementation in a neutral way!
 
 
 ![](https://github.com/senips/selenium-wrap/blob/master/doc/images/automationwrapperfram.png)

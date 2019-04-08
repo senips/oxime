@@ -1,7 +1,7 @@
 {
-  "name": "seleniumwrap",
+  "name": "oxime",
   "version": "1.0.1",
-  "description": "Web Driver Wrapper Framework for Selenium",
+  "description": "Portable Provider Interface for Browser Testing ",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -11,10 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/senips/selenium-wrap.git"
+    "url": "git+https://github.com/senips/oxime.git"
   },
   "keywords": [
     "selenium",
+    "puppeteer",
+    "cypress",
     "automation",
     "jasmine",
     "mocha",
@@ -23,9 +25,9 @@
   "author": "Senthil Maruthaiappan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/senips/selenium-wrap/issues"
+    "url": "https://github.com/senips/oxime/issues"
   },
-  "homepage": "https://github.com/senips/selenium-wrap#readme",
+  "homepage": "https://github.com/senips/oxime#readme",
   "dependencies": {
     "q": "^1.4.1"
   },
